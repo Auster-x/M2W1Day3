@@ -5,6 +5,35 @@ body{
     padding: 0;
 }
 
+.card {
+    margin: 2em 1em;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #fdd835;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cardText {
+    
+}
+
 @media screen and (min-width: 800px) {}
 
 @media screen and (max-width: 1199px) {}
