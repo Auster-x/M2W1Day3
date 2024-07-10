@@ -25,10 +25,13 @@ body{
 .cardText {
     margin: 10px 0;
     display: flex;
-    flex-direction: row;
     
+}
 
-
+.price{
+    display: flex;
+    justify-content:end;
+    align-items: center;
 }
 
 .card button {
